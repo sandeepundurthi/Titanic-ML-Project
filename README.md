@@ -5,11 +5,10 @@ This project predicts whether a passenger on the Titanic survived or not using M
 1. Dataset
 2. Project Workflow
 3. Installation
-4. How to Run the Project
-5. Results & Evaluation
-6. Future Improvements
-7. Contributing
-8. License
+4. Results & Evaluation
+5. Future Improvements
+6. Contributing
+7. License
 ## Dataset
 1. Source: Kaggle Titanic Dataset
 2. Files Used:
@@ -40,3 +39,22 @@ This project predicts whether a passenger on the Titanic survived or not using M
 4. Model Evaluation
 - Accuracy, Precision, Recall, F1-score
 - Confusion Matrix
+## Installation
+To run this project, install the required Python libraries:
+ -  pip install pandas numpy matplotlib seaborn scikit-learn
+
+## Results & Evaluation
+-  Logistic Regression Accuracy: ~81%
+-  Random Forest Accuracy: ~85%
+
+> Key Insights:
+
+- Women had a higher survival rate than men
+- First-class passengers had better survival chances
+- Younger passengers had a higher probability of survival
+
+## Future Improvements
+- Hyperparameter Tuning (GridSearchCV for best parameters)
+- Feature Engineering (Extracting more features from names and tickets)
+- Ensemble Methods (Boosting models like XGBoost)
+- Deep Learning Approach (Using a Neural Network for better performance)
