@@ -25,3 +25,18 @@ This project predicts whether a passenger on the Titanic survived or not using M
     - Fare: Ticket fare
     - Embarked: Port of embarkation (C = Cherbourg, Q = Queenstown, S = Southampton)
 
+## Project Workflow
+ 1. Data Preprocessing
+- Handle missing values (Age, Embarked, Cabin)
+- Convert categorical values (Sex, Embarked) into numerical form
+- Create new features (FamilySize = SibSp + Parch + 1)
+- Remove irrelevant columns (PassengerId, Name, Ticket)
+2. Exploratory Data Analysis (EDA)
+- Visualizing survival rates by gender, class, and family size
+- Analyzing correlation between features
+3. Machine Learning Models
+- Logistic Regression
+- Random Forest Classifier
+4. Model Evaluation
+- Accuracy, Precision, Recall, F1-score
+- Confusion Matrix
