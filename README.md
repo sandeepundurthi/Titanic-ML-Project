@@ -3,10 +3,10 @@ This project predicts whether a passenger on the Titanic survived or not using M
 
 ## 📂 Table of Contents
 1. Dataset
-### Project Workflow
-### Installation
-### How to Run the Project
-### Results & Evaluation
-### Future Improvements
-### Contributing
-### License
+2. Project Workflow
+3. Installation
+4. How to Run the Project
+5. Results & Evaluation
+6. Future Improvements
+7. Contributing
+8. License
