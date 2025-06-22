@@ -18,7 +18,7 @@ This project is a classic binary classification task: predicting survival outcom
 Titanic-ML-Project/
 ├── notebook/
 │   ├── Titanic-ML.ipynb
-│   └── Untitled1.ipynb
+│   └── Titanic_Prediction.ipynb
 ├── data/
 │   ├── train.csv
 │   ├── test.csv
