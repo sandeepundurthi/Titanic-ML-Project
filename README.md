@@ -12,14 +12,21 @@ This project is a classic binary classification task: predicting survival outcom
 
 ---
 
-## 📁 Files
+## 📁 Folder Structure
 
-- `train.csv`: Training dataset provided by Kaggle
-- `test.csv`: Test dataset for predictions
-- `gender_submission.csv`: Example submission format
-- `titanic_submission.csv`: Your model’s predictions
-- `Titanic-ML.ipynb`: Jupyter Notebook with EDA, preprocessing, model training
-- `titanic_ml.py`: (Optional) Script version of notebook
+```
+Titanic-ML-Project/
+├── notebook/
+│   ├── Titanic-ML.ipynb
+│   └── Untitled1.ipynb
+├── data/
+│   ├── train.csv
+│   ├── test.csv
+│   └── gender_submission.csv
+├── submission/
+│   └── titanic_submission.csv
+├── README.md
+```
 
 ---
 
@@ -47,7 +54,7 @@ This project is a classic binary classification task: predicting survival outcom
 
 ```bash
 # Run in Jupyter Notebook
-jupyter notebook Titanic-ML.ipynb
+jupyter notebook notebook/Titanic-ML.ipynb
 ```
 
 ---
